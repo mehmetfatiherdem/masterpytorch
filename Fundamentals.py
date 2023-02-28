@@ -4,7 +4,7 @@ import torch
 
 ## scalar
 scalar = torch.tensor(5)
-print(scalar) # prints tensor(7)
+print(scalar) # prints tensor(5)
 print(scalar.ndim) # ndim is similar to the array dimensions in programming. prints 0 because tensor(5) is just a number
 print(scalar.item()) # prints 5
 
